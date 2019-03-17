@@ -1,3 +1,2 @@
-a="stressed"
-
-print(a[::-1])
+str="パタトクカシーー"
+print(str[::2])
