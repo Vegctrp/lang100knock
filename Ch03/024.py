@@ -11,16 +11,10 @@ with gzip.open(ingzip,"rt") as gzipreader:
             wiki_england_json=injson
 
 linelist=wiki_england_json["text"].split("\n")
-pattern=r"\[\[Category:.*?\]\]"
+pattern=r"(?:ファイル|File):(.+?)\|"
 repatter=re.compile(pattern)
-
-"""
-match=repatter.findall(wiki_england_json["text"])
-for i in match:
-    print(i)
-"""
 
 for line in linelist:
     match=repatter.findall(line)
     if len(match)!=0:
-        print(line)
+        print(match[0])

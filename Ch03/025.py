@@ -10,17 +10,19 @@ with gzip.open(ingzip,"rt") as gzipreader:
         if(injson["title"]=="イギリス"):
             wiki_england_json=injson
 
-linelist=wiki_england_json["text"].split("\n")
-pattern=r"\[\[Category:.*?\]\]"
+text=wiki_england_json["text"].split("\n")
+pattern=r"^\|(.+?)\s=\s(.+?)$"
 repatter=re.compile(pattern)
 
-"""
-match=repatter.findall(wiki_england_json["text"])
-for i in match:
-    print(i)
-"""
+dictionary={}
+count=0
 
-for line in linelist:
+for line in text:
     match=repatter.findall(line)
     if len(match)!=0:
-        print(line)
+        dictionary[match[0][0]]=match[0][1]
+        count+=1
+
+print(dictionary)
+print(len(dictionary))
+print(count)
