@@ -90,6 +90,7 @@ class Chunk:
             if morph.pos=="名詞":
                 if not use:
                     ans+=char
+                    use=True
             elif morph.pos!="記号":
                 ans+=morph.surface
         return ans
