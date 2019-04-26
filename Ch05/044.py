@@ -2,7 +2,6 @@ import CaboCha
 import pydot
 
 text=input('Input : ')
-outfile="./043result.txt"
 
 cabocha=CaboCha.Parser()
 line=cabocha.parse(text).toString(CaboCha.FORMAT_LATTICE)
@@ -101,18 +100,17 @@ for sentence in line.split("EOS"):
                         sentence_list[i-1].add_morph(Morph(morph.split("\t")[0],word_analysis[6],word_analysis[0],word_analysis[1]))
         novel_list.append(sentence_list)
 
-with open(outfile,"w") as out:
-    graph=[]
-    sentence=novel_list[0]
-    for chunk in sentence:
-        src_str=chunk.surfaces()
-        if chunk.dst!=-1:
-            dst_str=sentence[chunk.dst].surfaces()
-        else:
-            dst_str=""
-        if src_str!="" and dst_str!="":
-            graph.append((src_str,dst_str))
-            #print(src_str+"\t"+dst_str,file=out)
-    print(graph)
-    g=pydot.graph_from_edges(graph,directed=True)
-    g.write_png("044result.png")
+graph=[]
+sentence=novel_list[0]
+for chunk in sentence:
+    src_str=chunk.surfaces()
+    if chunk.dst!=-1:
+        dst_str=sentence[chunk.dst].surfaces()
+    else:
+        dst_str=""
+    if src_str!="" and dst_str!="":
+        graph.append((src_str,dst_str))
+        #print(src_str+"\t"+dst_str,file=out)
+print(graph)
+g=pydot.graph_from_edges(graph,directed=True)
+g.write_png("044result.png")
