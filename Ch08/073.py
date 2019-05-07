@@ -128,6 +128,11 @@ with open("./073param.txt","w") as paramfile:
 with open("./ans.txt","w") as ans:
     for x,y in zip(feature_vec,point_vec):
         x.insert(0,1)
+        ans="+1" if y==1 else "-1"
         fv=np.array(x).reshape(1,12088)
-        predict=np.dot(fv,theta)
-        print(predict,y,file=ans)
+        predict=lll.sigmoid(fv)
+        if predict>0.5:
+            predict_label="+1"
+        else:
+            predict_label="-1"
+        print(str(y)+"\t"+str(predict_label)+"\t"+str(predict),file=ans)
