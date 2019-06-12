@@ -3,6 +3,9 @@ import codecs
 from stemming.porter2 import stem
 import numpy as np
 import pickle
+import matplotlib
+matplotlib.use('Agg')
+import matplotlib.pyplot as plt
 
 negfile="../data/rt-polaritydata/rt-polarity.neg"
 posfile="../data/rt-polaritydata/rt-polarity.pos"
@@ -43,24 +46,43 @@ def make_featureWordList(reviewWordList):
     featureWordList=list(set(wordlist_ws))
     return featureWordList
 
-def make_matrix(featureWordList):
+def make_matrix(featureWordList,i):
     feature_vecs=[]
     point_vec=[]
+    test_feature_vec=[]
+    test_point_vec=[]
     with open(sentiment_file,"r") as sent:
-        for line in sent.readlines():
+        length=len(sent.readlines())
+
+    with open(sentiment_file,"r") as sent:
+        for k,line in enumerate(sent.readlines()):
+            #if length/5*i<=k and length/5*(i+1)>k:
+            #    test_sent.append(line)
+            #else:
             point=line[0]
             word_list=pattern.findall(line)
             stem_list=[stem(word) if not isStop(word) else "." for word in word_list]
             stem_set=set(stem_list)
             line_vector=[1 if feature in stem_set else 0 for feature in featureWordList]
-            feature_vecs.append(line_vector)
-            if point=="+":
-                point_vec.append("1")
+            if length/5*i<=k and length/5*(i+1)>k:
+                test_feature_vec.append(line_vector)
+                if point=="+":
+                    test_point_vec.append("1")
+                else:
+                    test_point_vec.append("0")
             else:
-                point_vec.append("0")
+                feature_vecs.append(line_vector)
+                if point=="+":
+                    point_vec.append("1")
+                else:
+                    point_vec.append("0")
     feature_mat=np.array(feature_vecs,dtype=float)
     point_mat=np.array(point_vec,dtype=float)
-    return feature_mat,point_mat,feature_vecs,point_vec
+    test_feature_mat=np.array(test_feature_vec,dtype=float)
+    test_point_mat=np.array(test_point_vec,dtype=float)
+    print(np.shape(feature_mat))
+    print(np.shape(test_feature_mat))
+    return feature_mat,point_mat,test_feature_mat,test_point_mat
 
 class LogisticRegression():
     def __init__(self,matx,maty,learning_rate,epoch):
@@ -83,6 +105,8 @@ class LogisticRegression():
     def add_x0(self):
         x0=np.ones([self.trainx.shape[0],1])
         self.trainx=np.hstack([x0,self.trainx])
+        xx0=np.ones([self.testx.shape[0],1])
+        self.testx=np.hstack([xx0,self.testx])
 
     def shapingx(self):
         self.standardize()
@@ -102,44 +126,70 @@ class LogisticRegression():
         j=1/m*np.sum(-self.trainy*np.log(h)-(np.ones(m)-self.trainy)*np.log(np.ones(m)-h))
         return j
 
-    def learning(self):
+    def test_cost(self):
+        m=self.testx.shape[0]
+        h=self.sigmoid(self.testx)
+        j=1/m*np.sum(-self.testy*np.log(h)-(np.ones(m)-self.testy)*np.log(np.ones(m)-h))
+        return j
+
+    def learning(self,num):
+        outx=[]
+        outy_test=[]
+        outy_train=[]
         for i in range(self.epoch):
             self.update_theta()
-            print(i,self.cost())
+            traincost=self.cost()
+            testcost=self.test_cost()
+            outx.append(i+1)
+            outy_train.append(traincost)
+            outy_test.append(testcost)
+            print(str(i)+" train :"+str(traincost)+", test : "+str(testcost))
+        plt.plot(outx,outy_train,color="r",label="train")
+        plt.plot(outx,outy_test,color="b",label="test")
+        plt.legend()
+        plt.savefig("./figure"+str(num)+".png")
 
 #########################################################################################
+
 featureWordList=make_featureWordList(make_reviewWordList())
-feature_mat,point_mat,feature_vec,point_vec=make_matrix(featureWordList)
 
-lll=LogisticRegression(feature_mat,point_mat,30,900)
-#lll.shapingx()
-lll.add_x0()
-lll.learning()
-theta=lll.theta
-with open(outfile,"w") as out:
-    for i,tt in enumerate(theta.tolist()):
-        if i==0:
-            print("###weight_for_all_sentence###",tt,file=out)
-        else:
-            print(featureWordList[i-1],tt,file=out)
+precision_N=0
+precision_num=0
+recall_N=0
+recall_num=0
 
-with open("./073param.txt","w") as paramfile:
-    print(",".join(str(num) for num in theta.tolist()),file=paramfile)
+for i in range(5):
+    feature_mat,point_mat,test_feature_mat,test_point_mat=make_matrix(featureWordList,i)
 
-with open("./076ans.txt","w") as ans:
-    for x,y in zip(feature_vec,point_vec):
-        x.insert(0,1)
-        ans_label="+1" if y=="1" else "-1"
+    lll=LogisticRegression(feature_mat,point_mat,10,300)
+    #lll.shapingx()
+    lll.set_testdata(test_feature_mat,test_point_mat)
+    lll.add_x0()
+    lll.learning(i)
+    theta=lll.theta
+    for x,y in zip(test_feature_mat,test_point_mat):
+        x=np.insert(x,0,1)
+        ans_label="1" if y==1.0 else "-1"
         fv=np.array(x).reshape(1,12088)
         predict=lll.sigmoid(fv)
         if predict>0.5:
-            predict_label="+1"
+            predict_label="1"
         else:
             predict_label="-1"
-        print(str(ans_label)+"\t"+str(predict_label)+"\t"+str(predict[0]),file=ans)
+        p=predict[0]
 
-with open("./073-074wordlist.bin","wb") as picklebin1:
-    pickle.dump(featureWordList,picklebin1)
+        if predict_label=="1":
+            precision_N+=1
+            if ans_label=="1":
+                precision_num+=1
+        if ans_label=="1":
+            recall_N+=1
+            if predict_label=="1":
+                recall_num+=1
 
-with open("./073-074reg.bin","wb") as picklebin2:
-    pickle.dump(theta,picklebin2)
+    precision=precision_num/precision_N
+    recall=recall_num/recall_N
+
+    F1score=2*(precision*recall)/(precision+recall)
+
+    print("precision : "+str(precision)+", recall : "+str(recall)+", F1score : "+str(F1score))
