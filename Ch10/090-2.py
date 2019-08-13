@@ -1,7 +1,9 @@
 import math
+import pickle
 
 dmat=[]
 word_dict={}
+word_index=[]
 
 with open("090vec.txt","r") as intxt:
     line = intxt.readline()
@@ -12,6 +14,7 @@ with open("090vec.txt","r") as intxt:
     count=0
     while line:
         linelist = line.split(" ")
+        word_index.append(linelist[0])
         word_dict[linelist[0]]=count
         del linelist[-1]
         del linelist[0]
@@ -21,6 +24,12 @@ with open("090vec.txt","r") as intxt:
         count+=1
 
 #print(word_dict)
+
+with open("./090mat.dat","wb") as out:
+    pickle.dump(dmat,out)
+
+with open("./090wordindex.dat","wb") as out:
+    pickle.dump(word_index,out)
 
 # 86
 print(dmat[word_dict["United_States"]])
