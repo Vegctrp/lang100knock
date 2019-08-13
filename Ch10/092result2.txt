@@ -1,0 +1,506 @@
+boy girl brother sister ('brother', 0.9334959354813794)
+boy girl brothers sisters ('brothers', 0.8919242042739642)
+boy girl dad mom ('girl', 0.7358123790792949)
+boy girl father mother ('father', 0.940335857861074)
+boy girl grandfather grandmother ('grandmother', 0.835538251370045)
+boy girl grandpa grandma -1
+boy girl grandson granddaughter ('granddaughter', 0.8182742132353565)
+boy girl groom bride ('girl', 0.7287879374212219)
+boy girl he she ('he', 0.9644544093127333)
+boy girl his her ('his', 0.9563696916591797)
+boy girl husband wife ('husband', 0.9467798914331839)
+boy girl king queen ('king', 0.9152305373843261)
+boy girl man woman ('man', 0.9349249710157352)
+boy girl nephew niece ('aunt', 0.8168627028574146)
+boy girl policeman policewoman ('girl', 0.7342627356824419)
+boy girl prince princess ('princess', 0.7366971965447576)
+boy girl son daughter ('son', 0.9494863231455261)
+boy girl sons daughters ('sons', 0.932309626527579)
+boy girl stepbrother stepsister -1
+boy girl stepfather stepmother ('girl', 0.6861691904991317)
+boy girl stepson stepdaughter ('girl', 0.6052903298928769)
+boy girl uncle aunt ('aunt', 0.8590322495824793)
+brother sister brothers sisters ('sister', 0.7167644726242751)
+brother sister dad mom ('non-commercial', 0.5374146665788219)
+brother sister father mother ('mother', 0.8282089510275171)
+brother sister grandfather grandmother ('sister', 0.6610208188692762)
+brother sister grandpa grandma -1
+brother sister grandson granddaughter ('sister', 0.573694694653839)
+brother sister groom bride ('non-commercial', 0.5275958178778465)
+brother sister he she ('he', 0.8585847881902537)
+brother sister his her ('his', 0.8447207423722805)
+brother sister husband wife ('husband', 0.7860839464145314)
+brother sister king queen ('king', 0.6609059373210227)
+brother sister man woman ('girl', 0.7443250643097996)
+brother sister nephew niece ('sister', 0.6395992103540808)
+brother sister policeman policewoman ('non-commercial', 0.5368876547580226)
+brother sister prince princess ('sister', 0.4302472038069197)
+brother sister son daughter ('daughter', 0.8712654407898236)
+brother sister sons daughters ('daughters', 0.8122961530172679)
+brother sister stepbrother stepsister -1
+brother sister stepfather stepmother ('non-commercial', 0.5317904560540111)
+brother sister stepson stepdaughter ('non-commercial', 0.5285107600165417)
+brother sister uncle aunt ('sister', 0.7202528027285799)
+brother sister boy girl ('girl', 0.638920410086585)
+brothers sisters dad mom ('Ester', 0.5860100729924637)
+brothers sisters father mother ('father', 0.9350705535906274)
+brothers sisters grandfather grandmother ('grandmother', 0.7762846248465506)
+brothers sisters grandpa grandma -1
+brothers sisters grandson granddaughter ('niece', 0.7277793375365847)
+brothers sisters groom bride ('stays', 0.48798960916987055)
+brothers sisters he she ('he', 0.9641861490996788)
+brothers sisters his her ('his', 0.9620119735232584)
+brothers sisters husband wife ('husband', 0.9331651910405151)
+brothers sisters king queen ('king', 0.9157622764401628)
+brothers sisters man woman ('man', 0.9236897719486555)
+brothers sisters nephew niece ('niece', 0.8119623524251465)
+brothers sisters policeman policewoman ('Stormy', 0.49161680834920113)
+brothers sisters prince princess ('queen', 0.6607308272916369)
+brothers sisters son daughter ('son', 0.9500935672140112)
+brothers sisters sons daughters ('daughters', 0.936299000950855)
+brothers sisters stepbrother stepsister -1
+brothers sisters stepfather stepmother ('Ester', 0.5259519242490357)
+brothers sisters stepson stepdaughter ('signal-to-noise', 0.4579112878285421)
+brothers sisters uncle aunt ('aunt', 0.8245727830639776)
+brothers sisters boy girl ('boy', 0.8539104041133955)
+brothers sisters brother sister ('brother', 0.9330721486171459)
+dad mom father mother ('father', 0.9954985104276083)
+dad mom grandfather grandmother ('grandfather', 0.9819952269487525)
+dad mom grandpa grandma -1
+dad mom grandson granddaughter ('grandson', 0.9723996343753424)
+dad mom groom bride ('groom', 0.7546958572771014)
+dad mom he she ('he', 0.9969498504338169)
+dad mom his her ('his', 0.9966634535806974)
+dad mom husband wife ('husband', 0.9944323543793241)
+dad mom king queen ('king', 0.9932055239012222)
+dad mom man woman ('man', 0.9939528924975215)
+dad mom nephew niece ('nephew', 0.977386100359971)
+dad mom policeman policewoman ('policeman', 0.7212051919591517)
+dad mom prince princess ('prince', 0.9677951949977509)
+dad mom son daughter ('son', 0.9962022255893)
+dad mom sons daughters ('sons', 0.9943305729303893)
+dad mom stepbrother stepsister -1
+dad mom stepfather stepmother ('stepfather', 0.7623889655320192)
+dad mom stepson stepdaughter ('Grenoble', 0.6528040046436265)
+dad mom uncle aunt ('uncle', 0.9851850003733341)
+dad mom boy girl ('boy', 0.9873724835972444)
+dad mom brother sister ('brother', 0.9954713716810225)
+dad mom brothers sisters ('brothers', 0.9905017364001227)
+father mother grandfather grandmother ('grandmother', 0.783494335920092)
+father mother grandpa grandma -1
+father mother grandson granddaughter ('niece', 0.7130020103232414)
+father mother groom bride ('her', 0.49434060690968984)
+father mother he she ('he', 0.9384964308784532)
+father mother his her ('his', 0.9354968014503423)
+father mother husband wife ('husband', 0.9186964835665192)
+father mother king queen ('king', 0.8730486661677045)
+father mother man woman ('man', 0.8845667115606469)
+father mother nephew niece ('niece', 0.766096951186538)
+father mother policeman policewoman ('girl', 0.4764428665227969)
+father mother prince princess ('princess', 0.694645748726904)
+father mother son daughter ('daughter', 0.9325895028299654)
+father mother sons daughters ('daughters', 0.9131658283968138)
+father mother stepbrother stepsister -1
+father mother stepfather stepmother ('Goldenfleece', 0.47554623877138696)
+father mother stepson stepdaughter ('her', 0.393100961235564)
+father mother uncle aunt ('aunt', 0.800777179882981)
+father mother boy girl ('girl', 0.8446717213905096)
+father mother brother sister ('brother', 0.8910788265005507)
+father mother brothers sisters ('sisters', 0.8728517053181337)
+father mother dad mom ('Chloe', 0.5533047809846051)
+grandfather grandmother grandpa grandma -1
+grandfather grandmother grandson granddaughter ('niece', 0.8439019948285029)
+grandfather grandmother groom bride ("Claire's", 0.5846040297111179)
+grandfather grandmother he she ('he', 0.978808578991478)
+grandfather grandmother his her ('his', 0.976759973181116)
+grandfather grandmother husband wife ('husband', 0.9595243583469774)
+grandfather grandmother king queen ('king', 0.9499611696872143)
+grandfather grandmother man woman ('man', 0.9539122289937717)
+grandfather grandmother nephew niece ('grandmother', 0.8746492616326188)
+grandfather grandmother policeman policewoman ('Claire', 0.5739148328257597)
+grandfather grandmother prince princess ('prince', 0.7762344425577437)
+grandfather grandmother son daughter ('son', 0.9713887033047335)
+grandfather grandmother sons daughters ('sons', 0.9568799821122586)
+grandfather grandmother stepbrother stepsister -1
+grandfather grandmother stepfather stepmother ('Vianne', 0.6018368706183497)
+grandfather grandmother stepson stepdaughter ('Tink', 0.4645331327159846)
+grandfather grandmother uncle aunt ('grandmother', 0.9261367246035151)
+grandfather grandmother boy girl ('boy', 0.9112649628235235)
+grandfather grandmother brother sister ('brother', 0.9602496018061923)
+grandfather grandmother brothers sisters ('brothers', 0.9271485875959242)
+grandfather grandmother dad mom ('Claire', 0.6708696801733031)
+grandfather grandmother father mother ('father', 0.9613660367186329)
+grandpa grandma grandson granddaughter -1
+grandpa grandma groom bride -1
+grandpa grandma he she -1
+grandpa grandma his her -1
+grandpa grandma husband wife -1
+grandpa grandma king queen -1
+grandpa grandma man woman -1
+grandpa grandma nephew niece -1
+grandpa grandma policeman policewoman -1
+grandpa grandma prince princess -1
+grandpa grandma son daughter -1
+grandpa grandma sons daughters -1
+grandpa grandma stepbrother stepsister -1
+grandpa grandma stepfather stepmother -1
+grandpa grandma stepson stepdaughter -1
+grandpa grandma uncle aunt -1
+grandpa grandma boy girl -1
+grandpa grandma brother sister -1
+grandpa grandma brothers sisters -1
+grandpa grandma dad mom -1
+grandpa grandma father mother -1
+grandpa grandma grandfather grandmother -1
+grandson granddaughter groom bride ('internet', 0.5539600485412796)
+grandson granddaughter he she ('he', 0.9817664857395616)
+grandson granddaughter his her ('his', 0.9794054104275889)
+grandson granddaughter husband wife ('husband', 0.9629505622758409)
+grandson granddaughter king queen ('king', 0.962959880287756)
+grandson granddaughter man woman ('man', 0.9571934033520897)
+grandson granddaughter nephew niece ('nephew', 0.8527714487887159)
+grandson granddaughter policeman policewoman ('internet', 0.500670350596953)
+grandson granddaughter prince princess ('prince', 0.7830863584751977)
+grandson granddaughter son daughter ('son', 0.9822947016103475)
+grandson granddaughter sons daughters ('sons', 0.967221662655061)
+grandson granddaughter stepbrother stepsister -1
+grandson granddaughter stepfather stepmother ('talkback', 0.5464096426146794)
+grandson granddaughter stepson stepdaughter ('internet', 0.5442543080114287)
+grandson granddaughter uncle aunt ('uncle', 0.9012602268728859)
+grandson granddaughter boy girl ('boy', 0.9093261381248265)
+grandson granddaughter brother sister ('brother', 0.9723390836484789)
+grandson granddaughter brothers sisters ('brothers', 0.9386245440895139)
+grandson granddaughter dad mom ('smart', 0.6077222651575762)
+grandson granddaughter father mother ('father', 0.9692951405392425)
+grandson granddaughter grandfather grandmother ('grandfather', 0.8790710211960734)
+grandson granddaughter grandpa grandma -1
+groom bride he she ('he', 0.9947141501959718)
+groom bride his her ('his', 0.9941325304389975)
+groom bride husband wife ('husband', 0.9920823797877713)
+groom bride king queen ('king', 0.9913511751879025)
+groom bride man woman ('man', 0.9909944579045169)
+groom bride nephew niece ('nephew', 0.9743086222583934)
+groom bride policeman policewoman ('bride', 0.8538343429963652)
+groom bride prince princess ('prince', 0.9681109291362655)
+groom bride son daughter ('son', 0.9944947905630781)
+groom bride sons daughters ('sons', 0.9915325136617775)
+groom bride stepbrother stepsister -1
+groom bride stepfather stepmother ('stepfather', 0.8717140504884652)
+groom bride stepson stepdaughter ('bride', 0.8122614981703664)
+groom bride uncle aunt ('uncle', 0.9818938046754571)
+groom bride boy girl ('boy', 0.9824574950279126)
+groom bride brother sister ('brother', 0.9926681817288147)
+groom bride brothers sisters ('brothers', 0.9851993341773595)
+groom bride dad mom ('dad', 0.9105763647343891)
+groom bride father mother ('father', 0.9936036048083122)
+groom bride grandfather grandmother ('grandfather', 0.9798895536349663)
+groom bride grandpa grandma -1
+groom bride grandson granddaughter ('grandson', 0.9691786992640243)
+he she his her ('her', 0.8423072781316563)
+he she husband wife ('husband', 0.8142240206124508)
+he she king queen ('queen', 0.6709616437659567)
+he she man woman ('woman', 0.7847475242421013)
+he she nephew niece ('husband', 0.6100797779474251)
+he she policeman policewoman ('her', 0.4827697018914976)
+he she prince princess ('her', 0.552841326482098)
+he she son daughter ('daughter', 0.8361647559978985)
+he she sons daughters ('sisters', 0.7733423683057747)
+he she stepbrother stepsister -1
+he she stepfather stepmother ('her', 0.4826281821394805)
+he she stepson stepdaughter ('her', 0.4578191483462757)
+he she uncle aunt ('husband', 0.6626476125289918)
+he she boy girl ('girl', 0.6985840466469775)
+he she brother sister ('sister', 0.773366550753569)
+he she brothers sisters ('sisters', 0.7087312331282132)
+he she dad mom ('her', 0.5023911275745209)
+he she father mother ('mother', 0.7936830382128627)
+he she grandfather grandmother ('husband', 0.6401562511738509)
+he she grandpa grandma -1
+he she grandson granddaughter ('husband', 0.5743562392047096)
+he she groom bride ('her', 0.5130038242432284)
+his her husband wife ('husband', 0.7819680537346565)
+his her king queen ('herself', 0.6603924383243807)
+his her man woman ('woman', 0.7568157730901565)
+his her nephew niece ('husband', 0.5856188379328742)
+his her policeman policewoman ('her', 0.5441402158023658)
+his her prince princess ('herself', 0.6109853172377484)
+his her son daughter ('daughter', 0.8082114684056171)
+his her sons daughters ('sisters', 0.7244495504154431)
+his her stepbrother stepsister -1
+his her stepfather stepmother ('her', 0.5381123002391214)
+his her stepson stepdaughter ('her', 0.5233199299827589)
+his her uncle aunt ('husband', 0.6306953703786226)
+his her boy girl ('herself', 0.6984963554950412)
+his her brother sister ('sister', 0.7450991906602391)
+his her brothers sisters ('sisters', 0.6603164037677466)
+his her dad mom ('herself', 0.5541687079259561)
+his her father mother ('mother', 0.7936054339330809)
+his her grandfather grandmother ('husband', 0.6094277255304915)
+his her grandpa grandma -1
+his her grandson granddaughter ('husband', 0.5654067322059549)
+his her groom bride ('her', 0.5641382648211709)
+his her he she ('she', 0.8906887916870201)
+husband wife king queen ('king', 0.8574231889001172)
+husband wife man woman ('man', 0.8497234488859473)
+husband wife nephew niece ('nephew', 0.7487313251418769)
+husband wife policeman policewoman ('wife', 0.5852325134616944)
+husband wife prince princess ('son', 0.7115646679127283)
+husband wife son daughter ('son', 0.9308976943065885)
+husband wife sons daughters ('sons', 0.8920783034882329)
+husband wife stepbrother stepsister -1
+husband wife stepfather stepmother ('wife', 0.6395895295637702)
+husband wife stepson stepdaughter ('wife', 0.5435813487787006)
+husband wife uncle aunt ('wife', 0.7956383470270983)
+husband wife boy girl ('boy', 0.7723027313422948)
+husband wife brother sister ('brother', 0.8976662534705414)
+husband wife brothers sisters ('brothers', 0.8377829993731634)
+husband wife dad mom ('wife', 0.6448615364810588)
+husband wife father mother ('father', 0.9077346050174938)
+husband wife grandfather grandmother ('grandfather', 0.7819462946423307)
+husband wife grandpa grandma -1
+husband wife grandson granddaughter ('son', 0.7438372030380532)
+husband wife groom bride ('wife', 0.5894033486169311)
+husband wife he she ('he', 0.9232145746155284)
+husband wife his her ('his', 0.9210396340326107)
+king queen man woman ('girl', 0.7230996384139925)
+king queen nephew niece ('Gayle', 0.6684412443900285)
+king queen policeman policewoman ('Adult', 0.6078171766946032)
+king queen prince princess ('Byrnes', 0.5529070364651636)
+king queen son daughter ('daughter', 0.8192515389433154)
+king queen sons daughters ('daughters', 0.8292502479935676)
+king queen stepbrother stepsister -1
+king queen stepfather stepmother ('Adult', 0.6179520769047113)
+king queen stepson stepdaughter ('Adult', 0.6242835509356209)
+king queen uncle aunt ('co-stars', 0.660811045874364)
+king queen boy girl ('lounge', 0.6014864899530793)
+king queen brother sister ('brother', 0.7677644470032324)
+king queen brothers sisters ('sisters', 0.6899876257331845)
+king queen dad mom ('Adult', 0.6082934911359039)
+king queen father mother ('father', 0.7715388256344272)
+king queen grandfather grandmother ('co-stars', 0.6187081720194025)
+king queen grandpa grandma -1
+king queen grandson granddaughter ('Tina', 0.6381088352887657)
+king queen groom bride ('Adult', 0.6109818771302783)
+king queen he she ('he', 0.8686846414871165)
+king queen his her ('his', 0.8585448023769597)
+king queen husband wife ('husband', 0.781220175055801)
+man woman nephew niece ('niece', 0.7336130298657149)
+man woman policeman policewoman ('female', 0.46112909367652355)
+man woman prince princess ('queen', 0.6430910916820831)
+man woman son daughter ('son', 0.9209019371718358)
+man woman sons daughters ('sons', 0.8937046296756554)
+man woman stepbrother stepsister -1
+man woman stepfather stepmother ('husband', 0.47748085983878497)
+man woman stepson stepdaughter ('molesters', 0.4207187663091086)
+man woman uncle aunt ('aunt', 0.7843584316696527)
+man woman boy girl ('woman', 0.8250280974344405)
+man woman brother sister ('brother', 0.8910727296755211)
+man woman brothers sisters ('brothers', 0.8277547878733993)
+man woman dad mom ('husband', 0.5096763196415005)
+man woman father mother ('father', 0.8981560508950542)
+man woman grandfather grandmother ('grandfather', 0.7367071258910937)
+man woman grandpa grandma -1
+man woman grandson granddaughter ('daughter', 0.7096423783385508)
+man woman groom bride ('molesters', 0.458651321165054)
+man woman he she ('he', 0.9309340094432844)
+man woman his her ('his', 0.9245632544117803)
+man woman husband wife ('husband', 0.9202222104229884)
+man woman king queen ('king', 0.8582476010892)
+nephew niece policeman policewoman ('Varying', 0.5003624923637819)
+nephew niece prince princess ('prince', 0.7506906882095651)
+nephew niece son daughter ('son', 0.9776551058185065)
+nephew niece sons daughters ('sons', 0.9624180872272812)
+nephew niece stepbrother stepsister -1
+nephew niece stepfather stepmother ('intake', 0.5211852214392318)
+nephew niece stepson stepdaughter ('sub-zero', 0.48172640854927506)
+nephew niece uncle aunt ('uncle', 0.9015919940038862)
+nephew niece boy girl ('boy', 0.8961854368039518)
+nephew niece brother sister ('brother', 0.9713751333666459)
+nephew niece brothers sisters ('brothers', 0.9329866208567086)
+nephew niece dad mom ('diminishes', 0.5583989943404543)
+nephew niece father mother ('father', 0.9704175864685499)
+nephew niece grandfather grandmother ('grandfather', 0.8778943609949325)
+nephew niece grandpa grandma -1
+nephew niece grandson granddaughter ('grandson', 0.7931583056243547)
+nephew niece groom bride ('intake', 0.5267426207790363)
+nephew niece he she ('he', 0.9785181787521089)
+nephew niece his her ('his', 0.976531441268586)
+nephew niece husband wife ('husband', 0.9578826279057956)
+nephew niece king queen ('king', 0.9529863299535369)
+nephew niece man woman ('man', 0.9512372846113217)
+policeman policewoman prince princess -1
+policeman policewoman son daughter -1
+policeman policewoman sons daughters -1
+policeman policewoman stepbrother stepsister -1
+policeman policewoman stepfather stepmother -1
+policeman policewoman stepson stepdaughter -1
+policeman policewoman uncle aunt -1
+policeman policewoman boy girl -1
+policeman policewoman brother sister -1
+policeman policewoman brothers sisters -1
+policeman policewoman dad mom -1
+policeman policewoman father mother -1
+policeman policewoman grandfather grandmother -1
+policeman policewoman grandpa grandma -1
+policeman policewoman grandson granddaughter -1
+policeman policewoman groom bride -1
+policeman policewoman he she -1
+policeman policewoman his her -1
+policeman policewoman husband wife -1
+policeman policewoman king queen -1
+policeman policewoman man woman -1
+policeman policewoman nephew niece -1
+prince princess son daughter ('son', 0.9773963960881192)
+prince princess sons daughters ('sons', 0.9632485423548162)
+prince princess stepbrother stepsister -1
+prince princess stepfather stepmother ('poolside', 0.549167101390097)
+prince princess stepson stepdaughter ('Adult', 0.5655663645040392)
+prince princess uncle aunt ('uncle', 0.892163635341172)
+prince princess boy girl ('boy', 0.9090162072774554)
+prince princess brother sister ('brother', 0.967320446934409)
+prince princess brothers sisters ('brothers', 0.9357889499736824)
+prince princess dad mom ('Flav', 0.5903981444123786)
+prince princess father mother ('father', 0.967818792253604)
+prince princess grandfather grandmother ('grandfather', 0.8698039524967095)
+prince princess grandpa grandma -1
+prince princess grandson granddaughter ('grandson', 0.8134643078861262)
+prince princess groom bride ('DX', 0.5402114259672021)
+prince princess he she ('he', 0.9811910434256855)
+prince princess his her ('his', 0.9796541325846561)
+prince princess husband wife ('husband', 0.962844259356258)
+prince princess king queen ('king', 0.9728768721605574)
+prince princess man woman ('man', 0.957555976112567)
+prince princess nephew niece ('nephew', 0.8448781563579831)
+prince princess policeman policewoman ('Aldean', 0.5330114808465232)
+son daughter sons daughters ('daughters', 0.9059249960880899)
+son daughter stepbrother stepsister -1
+son daughter stepfather stepmother ('Mangal', 0.46073180146568754)
+son daughter stepson stepdaughter ('Cruises', 0.36835942908652436)
+son daughter uncle aunt ('aunt', 0.7743083742649959)
+son daughter boy girl ('girl', 0.8009309520568059)
+son daughter brother sister ('brother', 0.8500592390567203)
+son daughter brothers sisters ('sisters', 0.8454322938511659)
+son daughter dad mom ('Goldenfleece', 0.4907385700178407)
+son daughter father mother ('mother', 0.9180853868742869)
+son daughter grandfather grandmother ('aunt', 0.7410562575900115)
+son daughter grandpa grandma -1
+son daughter grandson granddaughter ('niece', 0.6961437199090187)
+son daughter groom bride ('her', 0.4369898208265361)
+son daughter he she ('he', 0.920708947043318)
+son daughter his her ('his', 0.9101492825881049)
+son daughter husband wife ('husband', 0.8820729739341922)
+son daughter king queen ('king', 0.802405541575644)
+son daughter man woman ('girl', 0.8485927329869516)
+son daughter nephew niece ('niece', 0.722428604627192)
+son daughter policeman policewoman ('nude', 0.4165515475308143)
+son daughter prince princess ('princess', 0.6003355580849354)
+sons daughters stepbrother stepsister -1
+sons daughters stepfather stepmother ('sunny', 0.5097485393452289)
+sons daughters stepson stepdaughter ('sunny', 0.49934779330447315)
+sons daughters uncle aunt ('boyfriend', 0.7991857623664445)
+sons daughters boy girl ('boy', 0.8071509925007812)
+sons daughters brother sister ('brother', 0.9239220871198788)
+sons daughters brothers sisters ('brothers', 0.8468747411333901)
+sons daughters dad mom ('sunny', 0.5461085870582199)
+sons daughters father mother ('father', 0.9216165633805207)
+sons daughters grandfather grandmother ('dad', 0.730980938033622)
+sons daughters grandpa grandma -1
+sons daughters grandson granddaughter ('Brattle', 0.6543719006548848)
+sons daughters groom bride ('sunny', 0.5297279106964423)
+sons daughters he she ('he', 0.9567980694376212)
+sons daughters his her ('his', 0.9525453911863145)
+sons daughters husband wife ('husband', 0.9118095615426375)
+sons daughters king queen ('king', 0.900202684020534)
+sons daughters man woman ('man', 0.900477750298556)
+sons daughters nephew niece ('boyfriend', 0.7456242210050177)
+sons daughters policeman policewoman ('sunny', 0.5473153743536243)
+sons daughters prince princess ("man's", 0.5314032187009728)
+sons daughters son daughter ('son', 0.946261161543991)
+stepbrother stepsister stepfather stepmother -1
+stepbrother stepsister stepson stepdaughter -1
+stepbrother stepsister uncle aunt -1
+stepbrother stepsister boy girl -1
+stepbrother stepsister brother sister -1
+stepbrother stepsister brothers sisters -1
+stepbrother stepsister dad mom -1
+stepbrother stepsister father mother -1
+stepbrother stepsister grandfather grandmother -1
+stepbrother stepsister grandpa grandma -1
+stepbrother stepsister grandson granddaughter -1
+stepbrother stepsister groom bride -1
+stepbrother stepsister he she -1
+stepbrother stepsister his her -1
+stepbrother stepsister husband wife -1
+stepbrother stepsister king queen -1
+stepbrother stepsister man woman -1
+stepbrother stepsister nephew niece -1
+stepbrother stepsister policeman policewoman -1
+stepbrother stepsister prince princess -1
+stepbrother stepsister son daughter -1
+stepbrother stepsister sons daughters -1
+stepfather stepmother stepson stepdaughter ('Primeira', 0.5548841306147491)
+stepfather stepmother uncle aunt ('uncle', 0.9897597961230769)
+stepfather stepmother boy girl ('boy', 0.9896276247848097)
+stepfather stepmother brother sister ('brother', 0.996254998413103)
+stepfather stepmother brothers sisters ('brothers', 0.9926268197164942)
+stepfather stepmother dad mom ('dad', 0.8923796328623222)
+stepfather stepmother father mother ('father', 0.996671492984288)
+stepfather stepmother grandfather grandmother ('grandfather', 0.9871254163603852)
+stepfather stepmother grandpa grandma -1
+stepfather stepmother grandson granddaughter ('grandson', 0.9793550546932505)
+stepfather stepmother groom bride ('groom', 0.7743587381115674)
+stepfather stepmother he she ('he', 0.9975726267964561)
+stepfather stepmother his her ('his', 0.9973365235538767)
+stepfather stepmother husband wife ('husband', 0.9961585164220883)
+stepfather stepmother king queen ('king', 0.99467799939237)
+stepfather stepmother man woman ('man', 0.9946989614784645)
+stepfather stepmother nephew niece ('nephew', 0.983966141775083)
+stepfather stepmother policeman policewoman ('policeman', 0.7471286800246261)
+stepfather stepmother prince princess ('prince', 0.9750562365579146)
+stepfather stepmother son daughter ('son', 0.997143971352207)
+stepfather stepmother sons daughters ('sons', 0.9958058079341606)
+stepfather stepmother stepbrother stepsister -1
+stepson stepdaughter uncle aunt ('uncle', 0.9963832219062707)
+stepson stepdaughter boy girl ('boy', 0.9971603895969131)
+stepson stepdaughter brother sister ('brother', 0.9988044471792891)
+stepson stepdaughter brothers sisters ('brothers', 0.9977708460848939)
+stepson stepdaughter dad mom ('dad', 0.975805518102464)
+stepson stepdaughter father mother ('father', 0.9988416403601006)
+stepson stepdaughter grandfather grandmother ('grandfather', 0.9957202693459237)
+stepson stepdaughter grandpa grandma -1
+stepson stepdaughter grandson granddaughter ('grandson', 0.9937590184192707)
+stepson stepdaughter groom bride ('groom', 0.9576191240352534)
+stepson stepdaughter he she ('he', 0.9993116560059451)
+stepson stepdaughter his her ('his', 0.999276394934091)
+stepson stepdaughter husband wife ('husband', 0.9986922900149677)
+stepson stepdaughter king queen ('king', 0.9984877765617478)
+stepson stepdaughter man woman ('man', 0.9986528925223717)
+stepson stepdaughter nephew niece ('nephew', 0.994719472723266)
+stepson stepdaughter policeman policewoman ('policeman', 0.9448259907892255)
+stepson stepdaughter prince princess ('prince', 0.993093427884285)
+stepson stepdaughter son daughter ('son', 0.9990542051595842)
+stepson stepdaughter sons daughters ('sons', 0.9987034986192234)
+stepson stepdaughter stepbrother stepsister -1
+stepson stepdaughter stepfather stepmother ('stepfather', 0.9599501965876518)
+uncle aunt boy girl ('boy', 0.8620327707585129)
+uncle aunt brother sister ('brother', 0.9656931199880249)
+uncle aunt brothers sisters ('brothers', 0.90797361089836)
+uncle aunt dad mom ('chat', 0.5616352437739418)
+uncle aunt father mother ('father', 0.9581614215464607)
+uncle aunt grandfather grandmother ('aunt', 0.8227008640315167)
+uncle aunt grandpa grandma -1
+uncle aunt grandson granddaughter ('grandson', 0.7199757649961183)
+uncle aunt groom bride ('remote', 0.48632894955500244)
+uncle aunt he she ('he', 0.9720260195161844)
+uncle aunt his her ('his', 0.9698269358996764)
+uncle aunt husband wife ('husband', 0.9457265705421746)
+uncle aunt king queen ('king', 0.9381031948943072)
+uncle aunt man woman ('man', 0.9353479410635299)
+uncle aunt nephew niece ('aunt', 0.7882691278684971)
+uncle aunt policeman policewoman ('nationwide', 0.4836480939655934)
+uncle aunt prince princess ('prince', 0.6614550839137531)
+uncle aunt son daughter ('son', 0.9747402270048843)
+uncle aunt sons daughters ('sons', 0.9512083044616053)
+uncle aunt stepbrother stepsister -1
+uncle aunt stepfather stepmother ('pre-recorded', 0.5432491022793472)
+uncle aunt stepson stepdaughter ('nationwide', 0.5306113320406681)
